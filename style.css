@@ -1,0 +1,56 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+#gallery {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 60%;
+    margin: 10px auto;
+    
+
+   
+
+
+}
+.picblock {
+    border-radius: 50%;
+    height: 320px;
+    width: 320px;
+    display: block;
+    overflow: hidden;
+    position: relative;
+    border: 2px solid #000;
+    
+    
+    
+    
+    
+}
+li img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    outline-offset: 10px solid #fff;
+    transition-property: transform;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+   
+
+
+    
+
+    
+}
+li:hover img {
+    transform: scale(1.5);
+
+
+
+}
+
+
